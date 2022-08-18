@@ -190,7 +190,7 @@ a {
     padding: 0 14px;
     background-color: white;
     position: relative;
-    left: -110px;
+    left: -111px;
     display: none;
 }
 .item-client {
@@ -211,6 +211,199 @@ a {
     text-align: left;
 }
 
+/* 网站导航 */
+.navigation {
+    position: relative;
+    left: -930px;
+    width: 1110px;
+    height: 190px;
+    padding: 15px 0;
+    background-color: white;
+    display: none;
+}
+.header-right-li dl {
+    float: left;
+}
+.header-right-li dt {
+    height: 33px;
+    color: #666;
+    font-weight: 700;
+    text-align: left;
+}
+.header-right-li .navigation .item {
+    width: 85px;
+}
+.header-right-li .navigation .nav-list-1 {
+    width: 255px;
+    padding-left: 18px;
+    overflow: hidden;
+    border-right: 1px solid rgb(230, 230, 230);
+}
+.header-right-li .navigation .nav-list-2 {
+    width: 255px;
+    padding-left: 18px;
+    border-right: 1px solid rgb(230, 230, 230);
+}
+.header-right-li .navigation .nav-list-3 {
+    width: 255px;
+    padding-left: 18px;
+    border-right: 1px solid rgb(230, 230, 230);
+}
+.header-right-li .navigation .nav-list-4 {
+    width: 255px;
+    padding-left: 18px;
+}
+
+/* ---------------------   搜索栏-------------------------------- */
+.nav-box {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    clear: none;
+}
+.nav {
+    width: 1100px;
+    margin-left: 140px;
+    position: relative;
+    z-index: 11;
+    height: 140px;
+}
+.logo {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 10px;
+    width: 190px;
+    height: 120px;
+    background-color: #fff;
+}
+.logo-title {
+    width: 100%;
+    height: 100%;
+}
+.logo-title-content {
+    background-image: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.1/assets/sprite/header/sprite.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 190px;
+    height: 120px;
+    font-size: 0;
+}
+.search-content {
+    position: relative;
+    z-index: 1;
+    height: 60px;
+}
+.form {
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+
+.text {
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+}
+.button {
+    border-radius: 0;
+    right: 0;
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    background-color: #e1251b;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    outline: none;
+    cursor: pointer;
+}
+.shopping-cat {
+    position: absolute;
+    right: 132px;
+    top: 25px;
+    z-index: 21;
+}
+.cat-a {
+    width: 130px;
+    height: 34px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 34px;
+    border-color: #eee;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    float: left;
+    border: 1px solid #e3e4e5;
+}
+.hotwords {
+    overflow: hidden;
+    position: absolute;
+    left: 260px;
+    top: 65px;
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+}
+.hotwords a {
+    font-size: 13px;
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #999;
+}
+.nav-bottom {
+    overflow: hidden;
+    position: absolute;
+    left: 203px;
+    bottom: 0;
+    height: 40px;
+    padding-top: 20px;
+}
+.spacer {
+    overflow: hidden;
+    width: 0;
+    height: 13px;
+}
+.nav-bottom .spacer,
+.nav-bottom li,
+.nav-bottom ul {
+    float: left;
+}
+.nav-bottom li {
+    margin-left: 1px;
+    list-style: none;
+}
+.nav-bottom a {
+    position: relative;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #333;
+    margin: 0 11px;
+}
+.nav-right {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 190px;
+    height: 120px;
+}
+
 /* ---------------------------------头部份--------------------------- */
 .city a:hover {
     display: block;
@@ -220,6 +413,7 @@ a {
 
 .header-left .header-left-li:hover .region {
     display: block;
+    position: relative;
 }
 .especially-ul .especially-li a:hover,
 .country-ul .country-li a:hover{
@@ -229,10 +423,16 @@ a {
 .header-left .dropdrown:hover,
 .header-right .dropdrown:hover {
     display: block;
+    
     border: 1px solid rgb(204, 204, 204);
     border-bottom: none;
     background-color: white;
 }
+.header-right-login .color:hover, 
+.color a:hover {
+    color: red;
+}
+
 /* 我的京东 */
 .header .header-right .header-right-li:hover .myjd {
     display: block;
@@ -259,4 +459,14 @@ a {
     display: block;
     border: 1px solid rgb(204, 204, 204);
     border-top: none;
+}
+
+/* 网站导航 */
+.header-right-li:hover .navigation {
+    display: block;
+}
+
+/* ----------------------------搜索栏部分------------------------ */
+.nav a:hover {
+    color: red;
 }
