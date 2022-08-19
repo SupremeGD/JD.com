@@ -413,7 +413,7 @@ a {
 
 .header-left .header-left-li:hover .region {
     display: block;
-    position: relative;
+    position: absolute;
 }
 .especially-ul .especially-li a:hover,
 .country-ul .country-li a:hover{
@@ -423,7 +423,6 @@ a {
 .header-left .dropdrown:hover,
 .header-right .dropdrown:hover {
     display: block;
-    
     border: 1px solid rgb(204, 204, 204);
     border-bottom: none;
     background-color: white;
