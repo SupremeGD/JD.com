@@ -9,6 +9,9 @@ body {
 a {
     text-decoration: none;
 }
+li {
+    list-style: none;
+}
 
 /* --------------------------------头部分-------------------------------------- */
 .header {
@@ -402,6 +405,58 @@ a {
     bottom: 10px;
     width: 190px;
     height: 120px;
+}
+
+/* --------------------------------column-box1---------------------------------- */
+.column-box1,
+.column-content1 {
+    position: relative;
+}
+.column-box1 {
+    margin-bottom: 30px;
+}
+.column-content1 {
+    z-index: 1;
+    height: 480px;
+    background-color: #f4f4f4;
+}
+.column-content1 {
+    margin: 0 auto;
+    width: 1190px;
+}
+.cc-box1,
+.cc-box2 {
+    float: left;
+    height: 480px;
+    margin-right: 10px;
+}
+.cc-box1 {
+    width: 190px;
+}
+.cc-box2 {
+    width: 790px;
+}
+
+.cc-left {
+    position: relative;
+    z-index: 3;
+}
+.list-title {
+    overflow: hidden;
+    padding: 10px 0;
+    height: 450px;
+    background-color: #fefefe;
+    color: #636363;
+    margin-top: 10px;
+}
+.cc-item {
+    height: 25px;
+    line-height: 25px;
+}
+.cc-item {
+    overflow: hidden;
+    padding-left: 18px;
+    font-size: 14px;
 }
 
 /* ---------------------------------头部份--------------------------- */
