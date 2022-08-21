@@ -456,8 +456,104 @@ li {
 .cc-item {
     overflow: hidden;
     padding-left: 18px;
-    font-size: 14px;
 }
+.cc-item a {
+    font-size: 14px;
+    color: #333;
+}
+.cc-list {
+    width: 798px;
+}
+.cc-list {
+    position: absolute;
+    left: 191px;
+    top: 0;
+    min-height: 468px;
+    border: 1px solid #f7f7f7;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgb(0 0 0 / 30%);
+    display: none;
+}
+.list-left {
+    display: none;
+    padding: 20px 0 10px;
+}
+.ll-col1 {
+    width: 600px;
+    float: left;
+}
+.ll-content1 {
+    overflow: hidden;
+    padding-left: 20px;
+    height: 24px;
+}
+.ll-content1 a {
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    height: 24px;
+    font-size: 13px;
+    background-color: #333;
+    line-height: 24px;
+    color: #fff;
+}
+.ll-content1 a i {
+    margin-left: 5px;
+    font-family: iconfont,sans-serif;
+    font-style: normal;
+}
+.ll-content2 {
+    overflow: hidden;
+    padding: 10px 0 0 20px;
+    /* *zoom: 1; */
+}
+
+.ll-item {
+    position: relative;
+    padding-left: 80px;
+}
+dl {
+    display: block;
+}
+
+.ll-item-dt {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 70px;
+    text-align: right;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+dt {
+    display: block;
+}
+.ll-item-dt a {
+    color: #333;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: right;
+}
+dd {
+    display: block;
+}
+.ll-item-dd {
+    overflow: hidden;
+    padding: 5px 0; 
+}
+.ll-item-dd a {
+    /* float: left; */
+    margin: 3px 0;
+    padding: 0 7px;
+    height: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    white-space: nowrap;
+    color: #666;
+}
+
 
 /* ---------------------------------头部份--------------------------- */
 .city a:hover {
@@ -523,4 +619,16 @@ li {
 /* ----------------------------搜索栏部分------------------------ */
 .nav a:hover {
     color: red;
+}
+
+.cc-item:hover {
+    background-color: rgb(224, 224, 224);
+}
+.cc-item a:hover,
+.ll-item-dt a:hover,
+.ll-item-dd a:hover {
+    color: red;
+}
+.cc-item:hover .cc-list {
+    display: block;
 }
