@@ -1695,7 +1695,7 @@
     </div>
     <div id="app">
         <div id="J-app">
-            <div id="J-seckill" tabindex="0" style="display: none;">
+            <div id="J-seckill" tabindex="0">
                 <div class="seckill">
                     <div class="jd-container seckill-inner">
                         <a href="" class="seckill-countdown">
@@ -1714,16 +1714,92 @@
                         </a>
                         <div class="seckill-list">
                             <div class="slider">
-                                <button class="slider-control control-prev" aria-hidden="true" tabindex="-1"></button>
-                                <div class="slider-list"></div>
-                                <button class="slider-control control-next" aria-hidden="true" tabindex="-1"></button>
+                                <button class="slider-control control-prev" aria-hidden="true" tabindex="-1">
+                                    <i class="iconfont"><</i>
+                                </button>
+                                <div class="slider-list" style="overflow: hidden;">
+                                    <div class="skider-wrapper" style="opacity: 1; width: 5600; transform: translate3d(-800px, 0px, 0px); transition: none 0s ease 0s;">
+                                        <!-- <div class="slider-item" style="float: left; width: 200px;"></div>
+                                        <div class="slider-item" style="float: left; width: 200px;"></div> -->
+                                        <a href="" class="slider-item seckill-item slider-active" data-index="2" style="float:left; width: 200px;">
+                                            <div class="lazyimg lazyimg-loaded seckill-item-image"><img src="https://img11.360buyimg.com/seckillcms/s280x280_jf…46436/625cd6b6Ee51df876/f45c1194591d6c00.jpg.avif" alt="" class="lazyimg-img"></div>
+                                            <h6 class="seckill-item-name"></h6>
+                                            <div class="seckill-item-price">
+                                                <span class="price-origin">
+                                                    <i>￥</i>
+                                                    <span>25000.0</span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="" class="slider-item seckill-item slider-active" data-index="2" style="float:left; width: 200px;">
+                                            <div class="lazyimg lazyimg-loaded seckill-item-image"><img src="	https://img30.360buyimg.com/seckillcms/s280x280_jf…66583/630760c1Eb1bfbde9/6ebbd71751ba447b.jpg.avif" alt="" class="lazyimg-img"></div>
+                                            <h6 class="seckill-item-name"></h6>
+                                            <div class="seckill-item-price">
+                                                <span class="price-origin">
+                                                    <i>￥</i>
+                                                    <span>25000.0</span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="" class="slider-item seckill-item slider-active" data-index="2" style="float:left; width: 200px;">
+                                            <div class="lazyimg lazyimg-loaded seckill-item-image"><img src="	https://img14.360buyimg.com/seckillcms/s280x280_jf…99288/63042bbaE75d76312/504c33b0db13a3ed.jpg.avif" alt="" class="lazyimg-img"></div>
+                                            <h6 class="seckill-item-name"></h6>
+                                            <div class="seckill-item-price">
+                                                <span class="price-origin">
+                                                    <i>￥</i>
+                                                    <span>25000.0</span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="" class="slider-item seckill-item slider-active" data-index="2" style="float:left; width: 200px;">
+                                            <div class="lazyimg lazyimg-loaded seckill-item-image"><img src="https://img10.360buyimg.com/seckillcms/s280x280_jf…48359/6304ab80Ed1b465fb/968e8415be1ca738.jpg.avif" alt="" class="lazyimg-img"></div>
+                                            <h6 class="seckill-item-name"></h6>
+                                            <div class="seckill-item-price">
+                                                <span class="price-origin">
+                                                    <i>￥</i>
+                                                    <span>25000.0</span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <!-- <div class="slider-item slider-next" style="float: left; width: 200px"></div>
+                                        <div class="slider-item slider-next" style="float: left; width: 200px"></div> -->
+                                    </div>
+                                </div>
+                                <button class="slider-control control-next" aria-hidden="true" tabindex="-1">
+                                    <i class="iconfont">></i>
+                                </button>
                             </div>
                         </div>
-                        <div class="seckill-brand"></div>
+                        <div class="seckill-brand">
+                            <a href="" class="brand-item">
+                                <div class="item-image">
+                                    <div class="lazyimg lazyimg-loaded">
+                                        <img src="" alt="" class="lazyimg-img">
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <p class="item-info-title">男士夏装秒杀直降</p>
+                                    <p class="item-info-promo">爆款低至3折</p>
+                                    <div class="item-info-action">
+                                        品类秒杀
+                                        <i class="iconfont">></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="J-spec"></div>
+            <div id="J-spec">
+                <div id="J-core1" class="core1 js-container floor" tabindex="0">
+                    <div class="gird-c1 core1-inner">
+                        <div id="J_special_offer" class="box special_offer grid_c2"></div>
+                        <div id="J_lightning_buy" class="box lightning-buy grid_c2 box_last"></div>
+                    </div>
+                </div>
+                <div id="J-niceGoods" tabindex="0"></div>
+                <div id="J-core2" class="core2 jd-container floor" tabindex="0" data-loading="true"></div>
+            </div>
             <div class="jd-container" tabindex="0" data-loading="true"></div>
             <div id="J-feeds" tabindex="0" data-loading="true"></div>
             <div class="elevator"></div>

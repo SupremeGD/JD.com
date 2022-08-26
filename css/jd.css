@@ -929,6 +929,269 @@ img {
     visibility: hidden;
     opacity: 0;
 }
+/* --------------------------------app------------------------ */
+/* J-seckill */
+#app {
+    position: relative;
+    z-index: 10;
+}
+#J-seckill {
+    outline: none;
+    position: relative;
+    z-index: 10;
+}
+.seckill {
+    height: 260px;
+    margin-bottom: 20px;
+}
+.jd-container {
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seckill-inner {
+    background-color: #fff;
+    height: 100%;
+    overflow: hidden;
+}
+.seckill-countdown {
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 100%;
+    color: #fff;
+    background-color: #e83632;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.seckill-list {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 100%;
+    overflow: hidden;
+}
+.seckill-brand {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 260px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.countdown-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 31px;
+}
+.countdown-desc {
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+}
+.countdown-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    display: block;
+}
+.timmer {
+    color: #333;
+    font-weight: 700;
+}
+.countdown-desc strong {
+    font-size: 18px;
+    padding-right: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -1px;
+}
+strong {
+    font-weight: bold;
+}
+.timmer-unit {
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #2f3430;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+}
+.unit-second {
+    margin-right: 0;
+}
+.control-prev {
+    left: 0;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.control-next {
+    right: 1px;
+}
+.control-next {
+    right: 0;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.slider-control {
+    position: absolute;
+    top: 50%;
+    border-radius: 0;
+    width: 25px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #d9d9d9;
+    background-color: rgba(0,0,0,.15);
+    margin-top: -20px;
+    font-size: 20px;
+    z-index: 2;
+    border: none;
+    outline: none;
+}
+.control-prev i {
+    left: -3px;
+}
+.slider-control i {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    color: (255,255,255, .8);
+    transition: color .2s ease;
+}
+.control-next i {
+    right: -3px;
+}
+.seckill-item {
+    position: relative;
+    width: 200px;
+    height: 260px;
+    display: inline-block;
+}
+.slider-item {
+    height: 100%;
+    min-height: 1px;
+}
+.lazyimg {
+    position: relative;
+    overflow: hidden;
+}
+.seckill-item-image {
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.seckill-item-name {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    transition: color .2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.seckill-item-name {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+}
+.seckill-item-price {
+    position: relative;
+    box-sizing: border-box;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: center;
+}
+.seckill-item-price {
+    width: 160px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+.lazyimg-img {
+    opacity: 1;
+}
+.lazyimg-img {
+    width: 100%;
+    height: 100%;
+}
+.price-origin {
+    height: 100%;
+    width: 66px;
+    background-color: #fff;
+    text-align: center;
+    color: #e1251b;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.brand-item {
+    position: relative;
+    height: 240px;
+}
+.item-image {
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.item-info {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+}
+.item-info {
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.item-info-title {
+    color: #666;
+}
+.item-info-promo {
+    color: #333;
+    font-weight: 700;
+}
+.item-info-action {
+    color: #e1251b;
+    border-radius: 14px;
+    width: 82px;
+    height: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    line-height: 22px;
+    font-weight: 700;
+    padding-left: 4px;
+    font-size: 12px;
+    border: 1px solid red;
+    margin-top: 4px;
+}
+.iconfont {
+    margin-left: -2px;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -2px;
+}
 
 /* ---------------------------------头部份--------------------------- */
 .city a:hover {
@@ -1018,4 +1281,16 @@ img {
     z-index: 20;
     animation: skeletonLoading 2s ease-in-out infinite;
     content: "";
+}
+
+.countdown-main .timmer-unit::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -20px;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 20px;
+    height: 100%;
+    top: 0;
 }
