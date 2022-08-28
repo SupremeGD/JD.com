@@ -1208,32 +1208,32 @@ strong {
 .J-niceGoods {
     outline: none;
 }
-.gird-c1 {
-    margin: 0 auto;
-    width: 1190px;
-}
 .box {
     float: left;
     height: 340px;
     margin: 0 10px 0 0;
 }
+.gird-c1 {
+    margin: 0 auto;
+    width: 1190px;
+}
 .special_offer {
     background-color: white;
 }
-.gird-c2 {
-    width: 590px;
-}
-.box-last {
+.box_last {
     margin-right: 0;
 }
 .lightning-buy {
     background-color: white;
     width: 590px;
 }
+.gird_c2 {
+    width: 590px;
+}
 .box-hd {
     height: 60px;
     padding: 0 20px;
-    font-size: 0;
+    /* font-size: 0; */
     line-height: 0;
 }
 .box-hd-lk {
@@ -1417,13 +1417,13 @@ strong {
 .lightning-buy-container {
     padding: 0 20px 0 15px;
 }
-.goods-core {
+.lightning-buy .goods-core {
     position: relative;
 }
-.goods-core {
+.lightning-buy .goods-core {
     width: 270px;
     height: 265px;
-    margin-left: 15px;
+    margin-right: 15px;
     display: inline-block;
 }
 .goods-others {
@@ -1432,7 +1432,7 @@ strong {
     vertical-align: top;
     margin-top: -40px;
 }
-.core-logo {
+.lightning-buy .goods-core .core-logo {
     position: relative;
     width: 70px;
     height: 35px;
@@ -1448,7 +1448,7 @@ strong {
     z-index: 1;
     margin-top: 6px;
 }
-.core-desc {
+.lightning-buy .goods-core .core-desc {
     position: relative;
     text-align: center;
     font-size: 12px;
@@ -1457,37 +1457,45 @@ strong {
     margin-top: 1px;
     z-index: 1;
 }
-.core-goods {
+.lightning-buy .goods-core .core-goods {
     width: 130px;
     height: 130px;
     display: block;
     margin: 0 auto;
-    -webkit-transition: opacity .2s ease;
     transition: opacity .2s ease;
     position: relative;
 }
-.core-desc-promo {
+.lightning-buy .goods-core .core-desc-promo {
     padding-right: 5px;
     position: relative;
 }
-.core-desc-extra {
+.lightning-buy .goods-core .core-desc-extra {
     padding-left: 5px;
     position: relative;
 }
 .extra-text {
     margin-right: 4px;
 }
+.extra-day {
+    display: inline-block;
+}
+.lightning-buy .goods-core .core-desc-extra .extra-day span {
+    margin-right: 4px;
+    font-weight: 700;
+}
 .lightning-buy .goods-others .other-item {
     position: relative;
+    left: 260px;
+    top: -260px;
     text-align: center;
     overflow: hidden;
+    float: left;
 }
 .lightning-buy .goods-others .other-item {
     display: inline-block;
     width: 135px;
     height: 100px;
     padding: 14px 0;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 .lightning-buy .goods-others .other-item-logo {
@@ -1509,12 +1517,10 @@ strong {
     background: rgba(245,245,245,.95);
     text-align: center;
     opacity: 0;
-    -webkit-transition: opacity .2s ease;
     transition: opacity .2s ease;
     font-weight: 700;
     color: #333;
     overflow: hidden;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 10px;
     visibility: hidden;
@@ -1523,18 +1529,13 @@ strong {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     vertical-align: middle;
     word-break: break-all;
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0 12px;
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     width: 100%;
 }
