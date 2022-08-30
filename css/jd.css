@@ -1549,6 +1549,128 @@ strong {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+/* .J-niceGoods */
+.jd-container {
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nice-goods {
+    height: 260px;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 190px;
+    margin-bottom: 20px;
+}
+.nice-goods-logo-bg3 {
+    background-image: url();
+}
+.nice-goods-logo {
+    background-color: #eee;
+    background-size: 100% 100%;
+}
+.nice-goods-logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 190px;
+    height: 100%;
+}
+.nice-goods-recommends {
+    background-color: white;
+    overflow: hidden;
+}
+.nice-goods-recommends {
+    margin-left: 10px;
+    height: 100%;
+    position: relative;
+}
+.logo-container {
+    width: 160px;
+    height: 90px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url();
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.logo-text {
+    color: rgba(255, 255, 255, .8);
+    font-size: 16px;
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: block;
+}
+.nice-goods-logo .logo-container .logo-text i {
+    background-image: url();
+    background-position: 0 -16px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    margin-left: 6px;
+    margin-top: -2px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.goods-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.scroll-bar {
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: calc(100% - 30px);
+    height: 3px;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    opacity: 0;
+    transition: opacity .3s ease;
+    visibility: hidden;
+}
+.nice-goods-recommends .goods-list .goods-bootom {
+    margin-top: 50px;
+}
+.nice-goods-recommends .goods-list .goods {
+    width: 150px;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+.nice-goods-recommends .goods-list .goods-top {
+    margin-top: 20px;
+}
+.nice-goods-recommends .goods-list .top {
+    width: 150px;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+.nice-goods-recommends .goods-list .goods-bottom .goods-name {
+    margin-bottom: 10px;
+}
+.nice-goods-recommends .goods-list .goods-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+}
+.nice-goods-recommends .goods-list .goods-image {
+    height: 150px;
+}
+.nice-goods-recommends .goods-list .goods-image img {
+    width: 100%;
+    height: 100%;
+}
 
 /* ---------------------------------头部份--------------------------- */
 .city a:hover {
