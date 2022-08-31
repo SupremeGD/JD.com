@@ -1195,12 +1195,12 @@ strong {
 
 
 /* J-spec */
-.js-container .floor {
+.jd-container.floor {
     height: 340px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.js-container {
+.jd-container {
     width: 1190px;
     margin-left: auto;
     margin-right: auto;
@@ -1550,6 +1550,9 @@ strong {
     white-space: nowrap;
 }
 /* .J-niceGoods */
+#J-niceGoods {
+    outline: none;
+}
 .jd-container {
     width: 1190px;
     margin-left: auto;
