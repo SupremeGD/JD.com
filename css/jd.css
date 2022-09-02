@@ -27,6 +27,7 @@ div {
     height: 35px;
     /* width: 1525; */
     line-height: 35px;
+    z-index: 20;
     background-color: rgb(216, 216, 216);
 }
 
@@ -48,6 +49,7 @@ div {
     width: 310px;
     position: relative;
     background-color: white;
+    z-index: 18;
     overflow: hidden;
     display: none;
 }
@@ -148,6 +150,7 @@ div {
 .myjd {
     width: 300px;
     height: 180px;
+    z-index: 18;
     background-color: white;
     position: relative;
     left: -1px;
@@ -183,6 +186,7 @@ div {
     top: -1px;
     left: -1px;
     display: none;
+    z-index: 18;
 }
 .item {
     width: 67px;
@@ -203,6 +207,7 @@ div {
     background-color: white;
     position: relative;
     left: -111px;
+    z-index: 18;
     display: none;
 }
 .item-client {
@@ -231,6 +236,7 @@ div {
     height: 190px;
     padding: 15px 0;
     background-color: white;
+    z-index: 18;
     display: none;
 }
 .header-right-li dl {
@@ -1685,6 +1691,9 @@ strong {
 .header-left .header-left-li:hover .region {
     display: block;
     position: absolute;
+    border: 1px solid rgb(214, 214, 214);
+    border-top: none;
+    box-shadow: 0 4px 8px (0,0,0,.5);
 }
 .especially-ul .especially-li a:hover,
 .country-ul .country-li a:hover{
@@ -1734,6 +1743,8 @@ strong {
 /* 网站导航 */
 .header-right-li:hover .navigation {
     display: block;
+    border: 1px solid rgb(204, 204, 204);
+    border-top: none;
 }
 
 /* ----------------------------搜索栏部分------------------------ */
@@ -1749,8 +1760,15 @@ strong {
 .ll-item-dd a:hover {
     color: red;
 }
-.cc-item:hover .cc-list {
+#box1 .cc-left ul .cc-item:hover #box1 .cc-left .cc-list {
     display: block;
+}
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
 }
 
 .skeleton-wrapper:before {
