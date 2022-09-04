@@ -1760,16 +1760,16 @@ strong {
 .ll-item-dd a:hover {
     color: red;
 }
-#box1 .cc-left ul .cc-item:hover #box1 .cc-left .cc-list {
+#box1 #c-left #l-title #c-item:hover #cc-list {
     display: block;
 }
-.clearfix:after {
+/* .clearfix:after {
     visibility: hidden;
     clear: both;
     display: block;
     content: ".";
     height: 0;
-}
+} */
 
 .skeleton-wrapper:before {
     position: absolute;
