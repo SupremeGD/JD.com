@@ -1680,6 +1680,59 @@ strong {
     width: 100%;
     height: 100%;
 }
+/* j-newArrival */
+.newArrival {
+    background-color: #fff;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.newArrival {
+    width: 290px;
+}
+.new-top {
+    width: 290px;
+    background-color: #fff;
+}
+.new-top {
+    position: relative;
+}
+.nice-shop {
+    background-color: white;
+}
+.nice-shop {
+    width: 290px;
+    height: 340px;
+}
+.coupon {
+    background-color: #fff;
+    width: 290px;
+}
+.box-last {
+    margin-right: 0;
+}
+.newArrival-slider {
+    position: relative;
+    width: 260px;
+    height: 250px;
+    margin: 0 auto;
+}
+.newArrival-slider .slider-control-prev {
+    left: -15px;
+}
+.newArrival-slider .slider-control {
+    margin-top: -50px;
+}
+.slider-control-prev {
+    left: 0;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.newArrival-slider .slider-list {
+    position: relative;
+    height: 250px;
+}
 
 /* ---------------------------------头部份--------------------------- */
 .city a:hover {
