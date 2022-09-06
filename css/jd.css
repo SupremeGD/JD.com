@@ -1733,6 +1733,98 @@ strong {
     position: relative;
     height: 250px;
 }
+.newArrival-slider .slider-control-next {
+    right: -15px;
+}
+.newArrival-slider .slider-control {
+    margin-top: -50px;
+}
+.slider-control-next {
+    right: 0;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.slider-wrapper {
+    opacity: 1;
+    position: relative;
+    left: -65px;
+    width: 1300px;
+    display: block;
+}
+.newArrival-item {
+    position: relative;
+    text-align: center;
+}
+.newArrival-item-lk {
+    display: block;
+    position: relative;
+}
+.newArrival-item-img {
+    width: 100%;
+    height: 140px;
+}
+.newArrival-item-name {
+    position: relative;
+    width: 200px;
+    left: -35px;
+    line-height: 19px;
+    font-size: 14px;
+    color: #333;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+    font-family: Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0;
+}
+.newArrival-item-name {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.newArrival-item-desc {
+    position: relative;
+    width: 200px;
+    height: 16px;
+    left: -35px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-size: 12px;
+    font-family: Microsoft Yahei,PingFangSC-Medium,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif,serif;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0;
+}
+.newArrival-item-price {
+    margin-top: 20px;
+    font-family: Arial-BoldMT,Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+    font-size: 18px;
+    color: #e1251b;
+    letter-spacing: 0;
+}
+.newArrival-item-new {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 48px;
+    height: 20px;
+    line-height: 20px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAUCAMAAAD84U6VAAAA3lBMVEVHcEzzUCjpOCD8ZS32Vij7YSrjKRruQiPoMx/3WiryTCXwSCTmLR7sPSHtPiP2UijsPSDxSCT6XynnLR38Zi7tPyL8ai7yTSXnLx74XirySyT1VCf8ZyzkKhz1VCf3XCnwRyToOSDrPB/wSCPvRyTsPCHzTSXyTiboNR/kKRz8bC73Win9ZiztQSP2VyjiIxfpPSToMx7kKhz0WSzoOR78Zy38ZS3jJxrhJBjlLh3mMiDlLB3/VVXxSif5YS38ZSz7aS36XSnuRyTiJhnkLh3jKx38ZiviKBr8Zy38ZS3HXuWjAAAASnRSTlMAzMzNzMzMzMzMzMzMzMzMzMzMz8zZzMzMzMzZ68zC2czMzMLZwtnCw7Hxw7HCzO5A2upA2dbK1urehbsDS4W83N7M92lvadpvb9rYxuQAAAE8SURBVHjahZNrV4JAEIbX4ipmuZmaLClWEAYiWHm/de///6FmmToL6Dn7fN7nzMy+MwRZL4LlA3APRFF0y/F9/4bzCGzDzZoIxkGazpMkeQKuOHeA53m2ZwM9YL9nLJyQPz7i9LLWMQzjxB0Mzup1Xdctq1GttiuVc0VRTNO8Vql6ytg3vn9/mzpOSXgVwggESqnafHkefmb9xFPNqZUr9BvtbrFCkxvQ1SqYaUJwL/h7bKksgMHCFRnPNAAFlwuZ0S/OQGkmtFpsQhZxTsgP3S0OjcJwQ4I5f98RLWEBy0JhVBR2IVl+afkZoIIuhi4KYOy2KGgHv3R8BhCwJXkO/xVCHFqeAwowNH6rPAfxrVlw8hxEcHw15DmI1cDlk+cglk+styQHWO8f2QF5NqfHEQd05ETxRn3O4Yn+AsUUTS7xfkfuAAAAAElFTkSuQmCC);
+    background-size: cover;
+    background-position: 50%;
+    color: white;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    font-family: Arial-BoldMT,Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+}
+#j-top .top-tab {
+    position: relative;
+}
 
 /* ---------------------------------头部份--------------------------- */
 .city a:hover {
