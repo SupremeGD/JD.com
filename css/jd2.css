@@ -245,8 +245,14 @@ img {
 }
 #ttbar-serv .item {
     display: inline-block;
-    width: 70px;
     padding-left: 15px;
+    float: left;
+    max-width: 78px;
+    overflow: hidden;
+    height: 24px;
+    width: 70px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 #ttbar-navs .dd {
     right: -84px;
@@ -364,10 +370,78 @@ img {
     float: left;
     width: 88px;
 }
+.shortcut-btn-company .item.bottom {
+    max-width: 302px;
+}
+.shortcut-btn-company .item:nth-child(odd) {
+    padding-right: 11px;
+}
+.shortcut-btn-company .item {
+    float: left;
+    max-width: 78px;
+    overflow: hidden;
+    height: 24px;
+    min-width: 38px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#ttbar-navs dl.fore1 {
+    border-left: none;
+    width: 340px;
+}
+#ttbar-navs dl {
+    float: left;
+    width: 255px;
+    padding-left: 20px;
+    border-left: 1px solid #eee;
+}
+#ttbar-navs dt {
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #666;
+}
+#ttbar-navs dd {
+    overflow: hidden;
+    *zoom: 1;
+}
+#ttbar-navs .item {
+    overflow: hidden;
+    float: left;
+    width: 85px;
+    white-space: nowrap;
+}
 
 
 
 
+
+#ttbar-mycity .dd .ui-areamini-content-wrap .ui-areamini-content .ui-areamini-content-list a:hover {
+    display: block;
+    background-color: #e6e5e5;
+    color: red;
+}
+#ttbar-mycity .areamini-inter-lk:hover {
+    color: red;
+}
+#shortcut .w .fr .shortcut-btn .dt a:hover {
+    color: red;
+}
+#ttbar-login .link-logon:hover,
+#ttbar-mycity .dt span:hover ,
+#shortcut .w .fr .dropdown .dd a:hover {
+    color: red;
+}
+.fore2:hover,
+.fore3:hover,
+.fore4:hover,
+.fore5:hover,
+.fore8:hover,
+.fore9:hover,
+.fore10:hover,
+#ttbar-mycity:hover{
+    background-color: white;
+}
 .dropdown:hover .dropdown-layer {
     display: block;
+    background-color: white;
 }
