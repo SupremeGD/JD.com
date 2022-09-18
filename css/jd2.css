@@ -410,7 +410,259 @@ img {
     width: 85px;
     white-space: nowrap;
 }
+/* --------------------header--------------------- */
+#header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+#header .w {
+    position: relative;
+    z-index: 11;
+    height: 140px;
+}
+.w {
+    margin: auto;
+    width: 1190px;
+}
+#logo,
+.logo-tit {
+    position: absolute;
+}
+#logo {
+    z-index: 2;
+    left: 0;
+    top: 10px;
+    width: 190px;
+    height: 120px;
+    background-color: #fff;
+}
+.logo-tit {
+    width: 100%;
+    height: 100%;
+}
+.logo-tit-lk {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.1/assets/sprite/header/sprite.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 190px;
+    height: 120px;
+    font-size: 0;
+}
+.logo-subtit {
+    display: none;
+}
+.logo-extend {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.search-m {
+    position: relative;
+    z-index: 1;
+    height: 60px;
+}
+.search-m .search-logo {
+    display: none;
+}
+.search-m .form {
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+#settleup {
+    position: absolute;
+    right: 230px;
+    top: 25px;
+    z-index: 21;
+}
+#shelper .search-helper {
+    left: 0;
+    top: 35px;
+}
+.root61 #shelper {
+    width: 488px;
+}
+#shelper {
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    left: 260px;
+    top: 59px;
+    width: 398px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgb(0 0 0 / 20%);
+}
+.search-m .search-bg,
+.search-m .text {
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+}
+.search-m .button, .search-m .search-bg, .search-m .text {
+    position: absolute;
+    top: 0;
+    outline: none;
+}
+.search-m .search-bg {
+    color: #989898;
+}
+.search-m .text {
+    color: #333;
+    background-color: #f4f4f4;
+}
+.photo-search-btn {
+    position: absolute;
+    right: 75px;
+    top: 10px;
+    width: 19px;
+    height: 15px;
+    overflow: hidden;
+}
+.photo-search-btn .upload-bg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 14px;
+    font-size: 20px;
+    text-align: center;
+    font-family: iconfont,sans-serif;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+.photo-search-btn .photo-search-login {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.search-m .button {
+    border-radius: 0;
+    right: 0;
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    background-color: #e1251b;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+#settleup .cw-icon {
+    width: 130px;
+    height: 34px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 34px;
+    border-color: #eee;
+}
+.cw-icon {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    float: left;
+    border: 1px solid #e3e4e5;
+}
+#settleup .dropdown-layer {
+    top: 36px;
+    right: 0;
+    width: 308px;
+    border-color: #c81623;
+}
+#settleup .cw-icon .iconfont, #settleup .cw-icon a {
+    color: #e1251b;
+    transition: color .2s ease;
+}
+#settleup .cw-icon .iconfont {
+    margin-right: 13px;
+    font-size: 16px;
+}
+#settleup .ci-count {
+    position: absolute;
+    top: 1px;
+    left: 29px;
+    right: auto;
+    display: inline-block;
+    padding: 1px 3px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #e1251b;
+    border-radius: 7px;
+    min-width: 12px;
+    text-align: center;
+}
+#header .style-red {
+    color: #e1251b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#hotwords a {
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #999;
+}
+#navitems .spacer {
+    overflow: hidden;
+    width: 0;
+    height: 13px;
+}
+#navitems .spacer, #navitems li, #navitems ul {
+    float: left;
+}
+#navitems li {
+    margin-left: 1px;
+}
+#navitems a {
+    position: relative;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #333;
+    margin: 0 11px;
+    transition: color .2s ease;
+}
 
+#hotwords {
+    overflow: hidden;
+    position: absolute;
+    left: 260px;
+    top: 65px;
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+}
+#navitems {
+    overflow: hidden;
+    position: absolute;
+    left: 203px;
+    bottom: 0;
+    height: 40px;
+    padding-top: 20px;
+}
+#treasure {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 190px;
+    height: 120px;
+}
 
 
 
