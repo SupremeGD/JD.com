@@ -1436,6 +1436,362 @@ strong {
     display: inline-block;
     margin-top: -2px;
 }
+.jd-container.floor {
+    height: 340px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.jd-container {
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.J-niceGoods {
+    outline: none;
+}
+.box {
+    float: left;
+    height: 340px;
+    margin: 0 10px 0 0;
+}
+.gird-c1 {
+    margin: 0 auto;
+    width: 1190px;
+}
+.special_offer {
+    background-color: white;
+}
+.box_last {
+    margin-right: 0;
+}
+.lightning-buy {
+    background-color: white;
+    width: 590px;
+}
+.gird_c2 {
+    width: 590px;
+}
+.box-hd {
+    height: 60px;
+    padding: 0 20px;
+    line-height: 0;
+}
+.box-hd-lk {
+    display: inline-block;
+    position: relative;
+    height: 32px;
+    margin: 12px 0 0;
+}
+.box-tit {
+    float: left;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    line-height: 32px;
+}
+.box-hd-arrow {
+    background-position: -16px 0;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    float: left;
+    top: 9px;
+    left: 10px;
+}
+.special-inner {
+    padding: 0 15px 15px;
+}
+.special-tab {
+    position: relative;
+}
+.tab-head-item {
+    position: relative;
+    display: inline-block;
+    margin: 0 13.5px;
+}
+#j-top .tab-head {
+    position: absolute;
+    height: 40px;
+    right: 5px;
+    line-height: 0;
+    font-size: 0;
+}
+.tab-head-item:last-child {
+    margin-right: 0;
+}
+.special-tab-lk {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 2px;
+    color: #e1251b;
+}
+.tab-body-item {
+    width: 560px;
+    height: 270px;
+}
+#J_special_offer .special-list {
+    width: 560px;
+    height: 270px;
+}
+.special-list {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#J_special_offer .special-item-0 {
+    background-color: rgba(109, 126, 146, .05);
+    float: left;
+    width: 170px;
+    height: 265px;
+    margin-right: 6px;
+}
+.special-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    height: 89px;
+}
+.special-item-1,
+.special-item-2 {
+    margin-top: 18px;
+}
+.special-item-1,
+.special-item-2,
+.special-item-3,
+.special-item-4 {
+    margin-left: 19px;
+    margin-bottom: 48px;
+}
+.special-item-lk {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+}
+#J_special_offer .special-item-0 .special-item-img {
+    margin-top: 46px;
+    width: 120px;
+    display: inline-block;
+    left: 50%;
+    margin-left: -60px;
+    height: 120px;
+    text-align: center;
+}
+#J_special_offer .special-item-img {
+    float: left;
+    width: 84px;
+    height: 84px;
+}
+.special-item-lowestFirst {
+    display: inline-block;
+    width: 90%;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    background-color: #f8ad21;
+    background-size: cover;
+    background-position: 50%;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+}
+.special-item-massage {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+}
+#J_special_offer .special-item-massage {
+    float: left;
+    width: 75px;
+    margin-left: 6px;
+    font-size: 0;
+}
+#J_special_offer .special-item-0 .special-item-name {
+    margin-top: 199px;
+    margin-bottom: 4px;
+    margin-left: -50px;
+    height: 19px;
+    line-height: 19px;
+    width: 150px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+#J_special_offer .special-item-name {
+    display: inline-block;
+    width: 100%;
+    color: #333;
+    height: 32px;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-family: Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+}
+.special-item-price {
+    margin-top: 4px;
+}
+#J_special_offer .special-item-miao {
+    font-size: 18px;
+}
+#J_special_offer .special-item-0 .special-item-miao {
+    display: inline-block;
+    margin:  0 2px;
+}
+#J_special_offer .special-item-miao {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Arial-BoldMT,Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+    color: #e1251b;
+    letter-spacing: 0;
+    margin-top: 5px;
+    font-weight: 700;
+    display: inline-block;
+}
+.dollar-txt {
+    font-size: 12px;
+}
+.lightning-buy-container {
+    padding: 0 20px 0 15px;
+}
+.lightning-buy .goods-core {
+    position: relative;
+}
+.lightning-buy .goods-core {
+    width: 270px;
+    height: 265px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.goods-others {
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -40px;
+}
+.lightning-buy .goods-core .core-logo {
+    position: relative;
+    width: 70px;
+    height: 35px;
+    display: block;
+    max-width: 15px auto 0;
+    z-index: 1;
+}
+.core-name {
+    position: relative;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    z-index: 1;
+    margin-top: 6px;
+}
+.lightning-buy .goods-core .core-desc {
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 13px;
+    margin-top: 1px;
+    z-index: 1;
+}
+.lightning-buy .goods-core .core-goods {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+    transition: opacity .2s ease;
+    position: relative;
+}
+.lightning-buy .goods-core .core-desc-promo {
+    padding-right: 5px;
+    position: relative;
+}
+.lightning-buy .goods-core .core-desc-extra {
+    padding-left: 5px;
+    position: relative;
+}
+.extra-text {
+    margin-right: 4px;
+}
+.extra-day {
+    display: inline-block;
+}
+.lightning-buy .goods-core .core-desc-extra .extra-day span {
+    margin-right: 4px;
+    font-weight: 700;
+}
+.lightning-buy .goods-others .other-item {
+    position: relative;
+    left: 260px;
+    top: -260px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.lightning-buy .goods-others .other-item {
+    display: inline-block;
+    width: 135px;
+    height: 100px;
+    padding: 14px 0;
+    box-sizing: border-box;
+}
+.lightning-buy .goods-others .other-item-logo {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+.lightning-buy .goods-others .other-item-logo img {
+    width: 100%;
+    height: 100%;
+}
+.lightning-buy .goods-others .other-item-logo .logo-overlap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(245,245,245,.95);
+    text-align: center;
+    opacity: 0;
+    transition: opacity .2s ease;
+    font-weight: 700;
+    color: #333;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+    visibility: hidden;
+}
+.lightning-buy .goods-others .other-item-logo .logo-overlap span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    vertical-align: middle;
+    word-break: break-all;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    box-sizing: border-box;
+    padding: 0 12px;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.lightning-buy .goods-others .other-item-name {
+    color: #666;
+    margin-top: 6px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 
 
 
@@ -1468,4 +1824,7 @@ strong {
 .dropdown:hover .dropdown-layer {
     display: block;
     background-color: white;
+}
+a:hover {
+    color: red;
 }
