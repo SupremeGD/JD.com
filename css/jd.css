@@ -1239,8 +1239,11 @@ strong {
 .box-hd {
     height: 60px;
     padding: 0 20px;
-    /* font-size: 0; */
+    background-color: #fff;
     line-height: 0;
+}
+.box-bd {
+    background-color: #fff;
 }
 .box-hd-lk {
     display: inline-block;
